@@ -1,0 +1,82 @@
+version: "3.7"
+services:
+  postgres:
+    image: postgres:14
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    networks:
+      - cqrs_network #para espeecificar que esten dentro misma red
+      
+  zookeeper:
+    image: confluentinc/cp-zookeeper:5.5.3
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+    networks:
+      - cqrs_network  
+      
+  kafka:
+    image: confluentinc/cp-enterprise-kafka:5.5.3
+    depends_on: [zookeeper]
+    healthcheck: ## hace un ping al puerto
+      test: ["CMD", "kafka-topics", "--bootstrap-server", "localhost:9092", "--list"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_BROKER_ID: 1
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_JMX_PORT: 9991
+    ports:
+      - 9092:9092
+    networks:
+      - cqrs_network    
+
+    
+  transaction: #docker destop reference, can't be duplicated the tag
+    build:
+      context: .
+      dockerfile: TRANSACTION/Dockerfile
+    container_name: TRANSACTION
+    environment:
+      #MONGO_DB: ${MONGO_DB}
+      #MONGO_USER: ${MONGO_USER}
+      #MONGO_PASSWORD: ${MONGO_PASSWORD}
+      #KAFKA_BROKER: ${KAFKA_BROKER}
+      ASPNETCORE_URLS: "http://+:80"
+    ports:
+      - "5011:80"  #escucha en puerto fisico 5011 pero redirecciona internamente al 80 del contenedor
+    networks:
+      - cqrs_network
+    depends_on:
+      kafka:
+        condition: service_healthy
+  
+  antifraud: #docker destop reference, can't be duplicated the tag
+    build:
+      context: .
+      dockerfile: ANTIFRAUD/Dockerfile
+    container_name: ANTIFRAUD
+    environment:
+      #MONGO_DB: ${MONGO_DB}
+      #MONGO_USER: ${MONGO_USER}
+      #MONGO_PASSWORD: ${MONGO_PASSWORD}
+      #KAFKA_BROKER: ${KAFKA_BROKER}
+      ASPNETCORE_URLS: "http://+:80"
+    ports:
+      - "5012:80"  #escucha en puerto fisico 5011 pero redirecciona internamente al 80 del contenedor
+    networks:
+      - cqrs_network
+    depends_on:
+      kafka:
+        condition: service_healthy
+  
+networks:
+  cqrs_network:
+    driver: bridge       
+      

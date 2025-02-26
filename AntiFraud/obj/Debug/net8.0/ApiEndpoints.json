@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "AntiFraud.API.Controllers.AntiFraudController",
+    "Method": "CheckTransaction",
+    "RelativePath": "AntiFraud",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

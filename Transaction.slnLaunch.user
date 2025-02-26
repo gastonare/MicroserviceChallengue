@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Transaction\\Transaction.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AntiFraud\\AntiFraud.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\antifraud\\core\\service\\antifraudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|solutionrelative:antifraud\\core\\service\\antifraudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\antifraud\\core\\models\\transactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|solutionrelative:antifraud\\core\\models\\transactionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\antifraud\\core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|solutionrelative:antifraud\\core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\antifraud\\core\\interfaces\\iantifraudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|solutionrelative:antifraud\\core\\interfaces\\iantifraudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\antifraud\\api\\controllers\\antifraudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}|AntiFraud\\AntiFraud.csproj|solutionrelative:antifraud\\api\\controllers\\antifraudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\transaction\\core\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|solutionrelative:transaction\\core\\service\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\transaction\\core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|solutionrelative:transaction\\core\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\transaction\\infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|solutionrelative:transaction\\infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|c:\\users\\gaston.arechavala\\source\\repos\\transaction\\transaction\\core\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DE7381-A96C-44F1-A07C-11B2A40451CD}|Transaction\\Transaction.csproj|solutionrelative:transaction\\core\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Models\\TransactionResponse.cs",
+              "RelativeDocumentMoniker": "AntiFraud\\Core\\Models\\TransactionResponse.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Models\\TransactionResponse.cs",
+              "RelativeToolTip": "AntiFraud\\Core\\Models\\TransactionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:53:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "AntiFraud\\Core\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Models\\Transaction.cs",
+              "RelativeToolTip": "AntiFraud\\Core\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:53:55.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAntiFraudService.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Interfaces\\IAntiFraudService.cs",
+              "RelativeDocumentMoniker": "AntiFraud\\Core\\Interfaces\\IAntiFraudService.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Interfaces\\IAntiFraudService.cs",
+              "RelativeToolTip": "AntiFraud\\Core\\Interfaces\\IAntiFraudService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:53:49.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AntiFraudController.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\API\\Controllers\\AntiFraudController.cs",
+              "RelativeDocumentMoniker": "AntiFraud\\API\\Controllers\\AntiFraudController.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\API\\Controllers\\AntiFraudController.cs",
+              "RelativeToolTip": "AntiFraud\\API\\Controllers\\AntiFraudController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:53:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Core\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "Transaction\\Core\\Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Core\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "Transaction\\Core\\Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:51:52.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Infrastructure\\Repository\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "Transaction\\Infrastructure\\Repository\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Infrastructure\\Repository\\TransactionRepository.cs",
+              "RelativeToolTip": "Transaction\\Infrastructure\\Repository\\TransactionRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:49:01.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Core\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "Transaction\\Core\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Core\\Models\\Transaction.cs",
+              "RelativeToolTip": "Transaction\\Core\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:49:10.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Core\\Service\\TransactionService.cs",
+              "RelativeDocumentMoniker": "Transaction\\Core\\Service\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\Transaction\\Core\\Service\\TransactionService.cs",
+              "RelativeToolTip": "Transaction\\Core\\Service\\TransactionService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:43:46.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AntiFraudService.cs",
+              "DocumentMoniker": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Service\\AntiFraudService.cs",
+              "RelativeDocumentMoniker": "AntiFraud\\Core\\Service\\AntiFraudService.cs",
+              "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Service\\AntiFraudService.cs",
+              "RelativeToolTip": "AntiFraud\\Core\\Service\\AntiFraudService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:39:26.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

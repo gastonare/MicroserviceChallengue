@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Transaction.API.Controllers.TransactionController",
+    "Method": "CreateTransaction",
+    "RelativePath": "Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionBody",
+        "Type": "Transaction.Core.Models.TransactionBody",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Transaction.API.Controllers.TransactionController",
+    "Method": "UpdateTransaction",
+    "RelativePath": "Transaction",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

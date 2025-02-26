@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "Transaction\Transaction.csproj", "{28DE7381-A96C-44F1-A07C-11B2A40451CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiFraud", "AntiFraud\AntiFraud.csproj", "{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28DE7381-A96C-44F1-A07C-11B2A40451CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DE7381-A96C-44F1-A07C-11B2A40451CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DE7381-A96C-44F1-A07C-11B2A40451CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DE7381-A96C-44F1-A07C-11B2A40451CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D3D831-FCEA-4AEE-BD97-3F4588B2B875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

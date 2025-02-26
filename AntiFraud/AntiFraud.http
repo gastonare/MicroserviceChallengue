@@ -1,0 +1,6 @@
+@AntiFraud_HostAddress = http://localhost:5184
+
+GET {{AntiFraud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
