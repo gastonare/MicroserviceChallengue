@@ -58,8 +58,7 @@
               "RelativeToolTip": "AntiFraud\\Core\\Models\\TransactionResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:53:55.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:53:55.839Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "AntiFraud\\Core\\Models\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:53:55.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:53:55.134Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "AntiFraud\\Core\\Interfaces\\IAntiFraudService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:53:49.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:53:49.124Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "AntiFraud\\API\\Controllers\\AntiFraudController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:53:43.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:53:43.474Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "Transaction\\Core\\Interfaces\\ITransactionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:51:52.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:51:52.557Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "Transaction\\Infrastructure\\Repository\\TransactionRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:49:01.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:49:01.387Z"
             },
             {
               "$type": "Document",
@@ -136,8 +130,7 @@
               "RelativeToolTip": "Transaction\\Core\\Models\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:49:10.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:49:10.133Z"
             },
             {
               "$type": "Document",
@@ -149,8 +142,7 @@
               "RelativeToolTip": "Transaction\\Core\\Service\\TransactionService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T12:43:46.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T12:43:46.436Z"
             },
             {
               "$type": "Document",
@@ -160,7 +152,7 @@
               "RelativeDocumentMoniker": "AntiFraud\\Core\\Service\\AntiFraudService.cs",
               "ToolTip": "C:\\Users\\gaston.arechavala\\source\\repos\\Transaction\\AntiFraud\\Core\\Service\\AntiFraudService.cs",
               "RelativeToolTip": "AntiFraud\\Core\\Service\\AntiFraudService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBAAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T12:39:26.384Z",
               "EditorCaption": ""
