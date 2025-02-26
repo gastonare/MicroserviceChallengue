@@ -5,6 +5,6 @@ namespace Transaction.Core.Interfaces
     public interface ITransactionService
     {
         public Task<TransactionResponse> CreateTransaction(TransactionBody transactionBody);
-        public TransactionResponse UpdateTransactions();
+        public TransactionUpdateResponse UpdateTransactions();
     }
 }

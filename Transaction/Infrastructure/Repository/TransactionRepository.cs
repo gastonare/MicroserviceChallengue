@@ -13,11 +13,17 @@ namespace Transaction.Infrastructure.Repository
             _transactionDbContext = transactionDbContext;
         }
 
+        public TransactionModel? GetRecord(int id)
+        {
+            var transaction = _transactionDbContext.transactions.FirstOrDefault(x => x.Id == id);
+            return transaction ?? null;
+        }
+
         public TransactionModel InsertRecord(TransactionModel transaction)
         {
             var createdTransaction = _transactionDbContext.transactions.Add(transaction);
             _transactionDbContext.SaveChanges();
-
+           
             return createdTransaction.Entity;
         }
 

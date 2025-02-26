@@ -6,5 +6,6 @@ namespace Transaction.Core.Interfaces
     {
         TransactionModel InsertRecord(TransactionModel transaction);
         TransactionModel UpdateRecord(TransactionModel transaction);
+        TransactionModel? GetRecord(int id);
     }
 }

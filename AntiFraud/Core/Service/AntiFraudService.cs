@@ -7,10 +7,11 @@ namespace AntiFraud.Core.Service
 {
     public class AntiFraudService : IAntiFraudService
     {
+        private readonly ITransactionRepository _transactionRepository;
         private readonly ConsumerConfig config;
         private readonly IProducer<string, string> _producer;
 
-        public AntiFraudService()
+        public AntiFraudService(ITransactionRepository transactionRepository)
         {
             config = new ConsumerConfig
             {
@@ -21,6 +22,7 @@ namespace AntiFraud.Core.Service
             };
 
             _producer = new ProducerBuilder<string, string>(config).Build();
+            _transactionRepository = transactionRepository;
         }
 
         public async Task<TransactionResponse> CheckTransactions()
@@ -49,13 +51,23 @@ namespace AntiFraud.Core.Service
                         var deliveryReport = new DeliveryResult<string, string>();
                         var transaction = JsonSerializer.Deserialize<Transaction>(result);
 
-                        if (transaction.Value > 2000)
+                        var todayDate = DateTime.Today;
+
+                        var historicTransactions = _transactionRepository.GetTransactions()
+                            .Where(x => x.SourceAccountId == transaction.SourceAccountId)
+                            .Where(x => x.Status == 1 || x.Status == 3)
+                            .Where(x => x.CreatedAt.Date == todayDate.Date)
+                            .Sum(x => x.Value);
+                            
+                        if (transaction.Value > 2000 || historicTransactions > 20000)
                         {
                             transaction.Status = 2; // set status to rejected
                         }
-
-                        transaction.Status = 3; // set status to approved
-
+                        else
+                        {
+                            transaction.Status = 3; // set status to approved
+                        }
+                        
                         var jsonMessage = JsonSerializer.Serialize(transaction);
 
                         var message = new Message<string, string>

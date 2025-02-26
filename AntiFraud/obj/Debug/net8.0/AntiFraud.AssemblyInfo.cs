@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntiFraud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2e816c037dd2fb4b8c62207651e60e2a0d192ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f2e3ece3f35449309fc0d96499159b07a9daadf")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntiFraud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntiFraud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

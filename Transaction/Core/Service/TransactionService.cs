@@ -93,7 +93,7 @@ namespace Transaction.Core.Service
             }
         }
 
-        public TransactionResponse UpdateTransactions()
+        public TransactionUpdateResponse UpdateTransactions()
         {
             try
             {
@@ -122,17 +122,23 @@ namespace Transaction.Core.Service
                             Value = result
                         };
 
+                        var existingTransaction = _transactionRepository.GetRecord(transaction.Id);
+                        if (existingTransaction == null)
+                        {
+                            continue;
+                        }
+
                         var updatedTransaction = _transactionRepository.UpdateRecord(transaction);
                         if (updatedTransaction == null)
                         {
-                            return new TransactionResponse
+                            return new TransactionUpdateResponse
                             {
                                 IsSuccess = false,
                                 MessageError = "Unable to update record into the database",
                             };
                         }
                     }
-                    return new TransactionResponse
+                    return new TransactionUpdateResponse
                     {
                         IsSuccess = true
                     };
@@ -140,7 +146,7 @@ namespace Transaction.Core.Service
             }
             catch (ConsumeException e)
             {
-                return new TransactionResponse
+                return new TransactionUpdateResponse
                 {
                     IsSuccess = false,
                     MessageError = e.Message
